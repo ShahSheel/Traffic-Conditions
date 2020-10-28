@@ -1,0 +1,34 @@
+{
+    "name": "sheel/here_traffic",
+    "description": "Uses Here API to get Delays when given a box coordinate ",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shahsheel",
+            "email": "sheel@example.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sheel\\here_traffic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "sheel\\here_traffic\\Test\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^6.0"
+    },
+    "extra": {
+        "providers": [
+            "\\sheel\\here_traffic\\Providers\\TrafficServiceProvider"
+        ]
+    }
+}

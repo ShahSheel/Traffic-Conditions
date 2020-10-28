@@ -1,0 +1,9 @@
+
+vendor/autoload.php
+/vendor/
+.idea
+.DS_STORE
+./src/DS_STORE
+.env
+
+
